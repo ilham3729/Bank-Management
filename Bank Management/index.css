@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(255, 216, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#loginMessage{
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: #f00;
+}
+
+.container{
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}   
+
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container form label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.container form input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}   
+
+.container form button{
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+
+.container form button:hover{
+    background: #555;
+}
+
+.container form a{
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    align-self: flex-end;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.container form a:visited{
+    color: #333;
+}   
+
+.container form a:hover{
+    color: #555;
+}
+
+#nsu{
+    margin: 20px 0;
+    color: #f00;
+}
+
+.ml-5{
+    margin-left: 2rem;
+}
+
+.mb-5{
+    margin-bottom: 2rem;
+}
+
+#nsu-img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background: #333;
+}
+
+.btn-primary:hover{
+    background: #555;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-danger{
+    color: #f00;
+}
